@@ -1,4 +1,4 @@
-function bookMarklet() {
+(function() {
 
 var bill = getText("div[aria-label^='Bill,']>div>div>button");
 var take = getText("div[aria-label^='Take']>div>span");
@@ -83,6 +83,4 @@ var html = "<html lang='en'><head><meta charset='UTF-8'><title>Amendment Take Sh
 var myWindow = (window.open("", "", "width=900, height=1050"));
 var writeOutput = myWindow.document.write(html);
 myWindow.print();
-myWindow.document.close();}
-
-bookMarklet()
+myWindow.document.close();}();
