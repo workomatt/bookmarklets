@@ -1,4 +1,4 @@
-(function(){
+var friyay = (function(){
 var bill = getText("div[aria-label^='Bill,']>div>div>button");
 var take = getText("div[aria-label^='Take']>div");
 var email = getText("div[aria-label^='Title']>div");
@@ -91,4 +91,4 @@ var html = "<html lang='en'><head><meta charset='UTF-8'><title>Amendment Take Sh
 var myWindow = (window.open("", "", "width=900, height=1050"));
 var writeOutput = myWindow.document.write(html);
 myWindow.print();
-myWindow.document.close();})();
+myWindow.document.close();});
