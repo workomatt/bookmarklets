@@ -1,5 +1,5 @@
 (function(){
-var bill = getText("div[aria-label^='Bill,']>div");
+var bill = getText("div[aria-label^='Bill title,']>div");
 var take = getText("div[aria-label^='Take']>div");
 var email = getText("div[aria-label^='Title']>div");
 var received = getText("div[aria-label^='Received']>div");
